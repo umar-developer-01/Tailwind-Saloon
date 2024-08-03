@@ -1,0 +1,26 @@
+.awssld__bullets {
+    bottom: -50px;
+    /* Position bullets at the bottom, adjust as needed */
+}
+
+.awssld__bullets button {
+    background-color: #ccc;
+    /* color: red; */
+    /* Default bullet color */
+    width: 12px;
+    /* Bullet width */
+    height: 12px;
+    /* Bullet height */
+    border-radius: 50%;
+    /* Make bullets round */
+    margin: 0 4px;
+    /* Spacing between bullets */
+}
+
+
+.awssld__bullets .awssld__bullets--active {
+    background-color: bg-slate-900;
+    width: 12px;
+    height: 12px;
+    /* Active bullet color */
+}
