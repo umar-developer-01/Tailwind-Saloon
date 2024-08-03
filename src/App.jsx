@@ -5,6 +5,7 @@ import Details from "./details";
 import Banner from "./banner";
 import Offer from "./offer";
 import Office from "./office";
+import ContactUs from "./contactUs";
 import './App.css'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Banner />
         <Offer/>
         <Office/>
+        <ContactUs/>
       </div>
     </>
   )

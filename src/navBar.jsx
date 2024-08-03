@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Eagle from "./assets/eagle.jpeg"
+import MyImage from "./assets/mudassir.jpg";
 import Logo from "./assets/logo.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faArrowRight, faXmark } from '@fortawesome/free-solid-svg-icons'
@@ -39,8 +40,9 @@ const NavBar = () => {
                             <FontAwesomeIcon icon={faXmark} className="text-gray-600" />
                         </button>
                     </div>
+                    <img src={MyImage} alt="myImage" className="h-24 w-24 rounded-full mt-2 pl-2 object-cover"/>
 
-                    <div className="mt-6">
+                    <div className="mt-6 pl-2">
                         <a href="#" className="font-medium my-3 py-3 hover:bg-red-50 block rounded-lg">Class Updates</a>
                         <a href="#" className="font-medium my-3 py-3 hover:bg-red-50 block rounded-lg">Our Courses</a>
                         <a href="#" className="font-medium my-3 py-3 hover:bg-red-50 block rounded-lg">Our Office</a>
