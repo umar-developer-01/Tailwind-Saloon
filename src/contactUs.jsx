@@ -18,15 +18,17 @@ const ContactUs = () => {
                                 <a href="https://www.instagram.com/mramshairandmakeupacademy/" target="_blank" rel="noopener noreferrer">
                                     <img src={Instagram} alt="instagram" className="h-8 w-8 rounded-lg" />
                                 </a>
-
-                                <p className="text-center  text-white">Instagram</p>
-
+                                <a href="https://www.instagram.com/mramshairandmakeupacademy/" target="_blank" rel="noopener noreferrer">
+                                  <p className="text-center  text-white">Instagram</p>
+                                </a>
                             </div>
                             <div className="flex items-center gap-2">
                                 <a href="whatsapp://send?phone=918400783879">
                                     <img src={Whatsapp} alt="whatsapp" className="h-8 w-8 rounded-lg" />
                                 </a>
-                                <p className="text-center   text-white">Whatsapp</p>
+                                <a href="whatsapp://send?phone=918400783879">
+                                    <p className="text-center   text-white">Whatsapp</p>
+                                </a>
 
                             </div>
 

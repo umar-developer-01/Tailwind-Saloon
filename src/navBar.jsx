@@ -40,7 +40,9 @@ const NavBar = () => {
                             <FontAwesomeIcon icon={faXmark} className="text-gray-600" />
                         </button>
                     </div>
-                    <img src={MyImage} alt="myImage" className="h-24 w-24 rounded-full mt-2 pl-2 object-cover"/>
+                    <div className="h-24 w-24 rounded-full overflow-hidden mt-2 ml-2">
+                        <img src={MyImage} alt="myImage" className="h-full w-full object-cover" />
+                    </div>
 
                     <div className="mt-6 pl-2">
                         <a href="#" className="font-medium my-3 py-3 hover:bg-red-50 block rounded-lg">Class Updates</a>
